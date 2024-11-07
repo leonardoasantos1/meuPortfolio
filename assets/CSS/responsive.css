@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: -100vh; 
+        left: 0;
+        width: 100%;
+        background-color: var(--cor-fundo-primario);
+        flex-direction: column;
+        align-items: center;
+        transition: top 0.3s ease; 
+        padding: 3rem;
+    }
+
+    .nav-links.active {
+        top: 60px; 
+    }
+
+    #hamburger {
+        display: flex;
+        z-index: 1;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+}

@@ -1,0 +1,54 @@
+.line {
+    border-right: 1px solid rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.animation {
+    animation:
+        cursorPiscar 500ms infinite normal,
+        typePiscar 4s steps(30) 1s normal both;
+}
+
+@keyframes typePiscar {
+    from {
+        width: 0;
+    } to {
+        width: 15em;
+    }
+}
+
+@keyframes cursorPiscar {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    } to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+    animation: slide-up 2s forwards;
+}
+
+.btn, .btn-website, .btn-github {
+    transition: background-color 2s, color 2s;
+}

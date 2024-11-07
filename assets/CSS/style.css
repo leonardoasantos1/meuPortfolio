@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo-primario: #041530;
+    --cor-fundo-secundario: #061e46;
+    --cor-texto: #fff;
+    --cor-cards: #1f1e1e;
+    --cor-string: #eeec83;
+    --cor-azul-secundaria: #004aad;
+    --cor-log: #32db4e;
+    --cor-console: #934fd3;
+    --cor-key: #00ffff;
+    --cor-red: #ee224e;
+    --cor-white: #fff;
+    --cor-blue: #004aad;
+    --cor-p: #e70ba5;
+    --cor-classe: #32db4e;
+}
+
+.dark-mode {
+    --cor-fundo-primario: #fff;
+    --cor-fundo-secundario: #eee;
+    --cor-texto: #041530;
+    --cor-cards: #eee;
+    --cor-string: #004aad;
+    --cor-log: #fff;
+    --cor-console: #e70ba5;
+    --cor-key: #e70ba5;
+    --cor-p: #c20f0f;
+    --cor-classe: #ff0000;
+}
+
+body {
+    width: 100%;
+    transition: background-color 1s, color 1s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    display: flex;
+    background-color: var(--cor-fundo-primario);
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    transition: background-color 1s;
+    flex-wrap: wrap;
+    color: var(--cor-texto);
+}
+
+.whatsapp img {
+    position: fixed;
+    width: 3rem; 
+    height: 3rem;
+    z-index: 2;
+    bottom: 1rem;
+    right: 1rem;
+}

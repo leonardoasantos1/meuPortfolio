@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfólio de Leonardo Alves, desenvolvedor front-end. Projetos em HTML, CSS e JavaScript, com foco em web design responsivo e moderno.">
+    <meta name="keywords" content="desenvolvedor front-end, portfólio, HTML, CSS, JavaScript, web design">
+    <meta name="author" content="Leonardo Alves">
+    <title>Meu Portfólio | Leonardo Alves</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/animation.css">
+    <link rel="stylesheet" href="assets/CSS/responsive.css">
+    <link rel="stylesheet" href="assets/CSS/header.css">
+    <link rel="stylesheet" href="assets/CSS/main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <i class="fas fa-sun theme-icon theme-icon-light" id="light-mode-icon" onclick="toggleTheme()"></i>
+            <i class="fas fa-moon theme-icon theme-icon-dark" id="dark-mode-icon" onclick="toggleTheme()"></i>
+            <ul class="nav-links" id="navLinks">
+                <li class="header-menu-item"><a class="header-menu-link" href="#hero">Home</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#section-about">Sobre</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#skills-section">Habilidades</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#portfolio-section">Portfólio</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#services">Serviços</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero background-section" id="hero">
+                <div class="hero-container animate-on-scroll">
+                    <img class="hero-img" src="assets/images/2.jpg" alt="foto principal">
+                    <p class="hero-intro-text line animation" style="font-family: Georgia, 'Times New Roman', Times, serif;"><span class="console">console</span>.<span class="log">log</span>(<span class="strings">"Olá, Mundo!"</span>);</p>
+                    <h1 class="hero-title">Leonardo Alves</h1>
+                    <p class="hero-subtitle">Desenvolvedor Front End</p>
+                    <div class="hero-buttons">
+                        <a class="btn btn-primary" href="https://wa.me/5511977649418" target="_blank">Contatar</a>
+                        <a class="btn btn-secondary" href="https://drive.google.com/uc?export=download&id=1h90GSof0xvpOZLIwHuUmM4-HqEaARSv9" download>Baixar CV</a>
+                    </div>
+                    <div class="hero-social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/leonardo-alvess/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a class="social-icon" href="https://github.com/leonardoasantos1" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="mailto:leonardoasantos1@outlook.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+        </section>
+        <section class="section-about" id="section-about">
+            <div class="about-content animate-on-scroll">
+                <h1 class="about-title">Sobre</h1>
+                <p class="about-location">São Paulo, SP </p>
+                <h2 class="about-name">Leonardo Alves</h2>
+                <p class="about-description"><<span class="p">p <span class="classe">class<span>=</span><span class="strings">"text-about"</span></span></span>> Sou um profissional com 7 anos de experiência em teleatendimento, sendo os últimos anos focados em auditoria e 3 anos em atendimento antifraude para e-commerce. Atualmente, estou cursando o 2° semestre de Análise e Desenvolvimento de Sistemas, com foco no desenvolvimento Front-End. <<span class="p">br</span>/>
+                <br/>
+                Tenho conhecimentos em HTML, CSS, JavaScript, SQL básico, Git, GitHub, C básico e Python básico. Atualmente, estou me aprofundando em React.JS, Node.JS, TypeScript, Next.JS e React Native, através do curso Full Stack. < /<span class="p">p</span>></p>
+                <div class="btn-container-about">
+                    <a href="https://drive.google.com/file/d/1h90GSof0xvpOZLIwHuUmM4-HqEaARSv9/view?usp=drive_link
+                    " target="_blank" class="about-btn">Visualizar Currículo</a>
+                </div>
+            </div>
+        </section>
+        <section class="skills-section background-section" id="skills-section">
+            <div class="container-skill-title">
+                <h1 class="skill-title"><span class="colchetes-encaracolados">{ }</span> minhasHabilidades.json</h1>
+            </div>
+            <div class="skills-list animate-on-scroll">
+                <div class="skills-code">
+                    <p class="code-symbol">{</p>
+                    <p class="code-key"><span class="code-key-span">"skills"</span>: [</p>
+                    <p class="code-values" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                        <span class="skill-item">"HTML"</span>, <br>
+                        <span class="skill-item">"CSS"</span>, <br>
+                        <span class="skill-item">"JavaScript"</span>, <br> 
+                        <span class="skill-item">"Bootstrap"</span>, <br>
+                        <span class="skill-item">"Git"</span>, <br>
+                        <span class="skill-item">"GitHub"</span>, <br>
+                        <span class="skill-item">"Python (básico)"</span>, <br>
+                        <span class="skill-item">"SQL (básico)"</span>, <br>
+                        <span class="skill-item">"C (básico)"</span>, <br>
+                        <span class="skill-item">"React.JS (atualmente)"</span>
+                    </p>
+                    <p class="code-key">]</p>
+                    <p class="code-symbol">}</p>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-section " id="portfolio-section">
+            <div class="portfolio-titles animate-on-scroll">
+                <h1 class="portfolio-title">Portfólio</h1>
+                <p class="portfolio-subtitle">Confira alguns dos meus projetos:</p>
+            </div>
+            <div class="portfolio-cards animate-on-scroll">
+                <div class="portfolio-card">
+                    <div class="portfolio-card-buttons">
+                        <a href="https://leonardoasantos1.github.io/Simulador-de-Media/" target="_blank" class="btn-website">Visitar site</a>
+                    </div>
+                    <div class="portfolio-card-text">
+                        <h4 class="project-title">Calculadora de Média</h4>
+                        <h3 class="project-description">Para auxiliar os estudantes universitários no cálculo das notas, esta aplicação verifica a média final do aluno.</h3>
+                    </div>
+                    <img class="project-image" src="assets/images/Media.png" alt="Projeto">
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-card-buttons">
+                        <a href="https://leonardoasantos1.github.io/LandingPage-Canecas/" target="_blank" class="btn-website">Visitar site</a>
+                    </div>
+                    <div class="portfolio-card-text">
+                        <h4 class="project-title">Landing Page | Canecas</h4>
+                        <h3 class="project-description">Esta é uma landing page simples e responsiva criada para a venda de canecas personalizadas</h3>
+                    </div>
+                    <img class="project-image" src="assets/images/LandingPage.png" alt="Projeto">
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-card-buttons">
+                        <a href="https://leonardoasantos1.github.io/GeradorDeSenhasComAPI/" target="_blank" class="btn-website">Visitar site</a>
+                    </div>
+                    <div class="portfolio-card-text">
+                        <h4 class="project-title">Gerador de Senhas | API</h4>
+                        <h3 class="project-description">Este projeto é um gerador de senhas aleatórias e seguras que consome uma API externa para gerar as senhas.</h3>
+                    </div>
+                    <img class="project-image" src="assets/images/SenhasAPI.png" alt="Projeto">
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-card-buttons">
+                        <a href="https://leonardoasantos1.github.io/ListaDeTarefa/" target="_blank" class="btn-website">Visitar site</a>
+                    </div>
+                    <div class="portfolio-card-text">
+                        <h4 class="project-title">Lista de Tarefas (To-Do list)</h4>
+                        <h3 class="project-description">Desenvolvida com HTML, CSS e JavaScript. Permite adicionar, listar e excluir tarefas, com localStorage.</h3>
+                    </div>
+                    <img class="project-image" src="assets/images/To-DoList.png" alt="Projeto">
+                </div>
+            </div>
+            <a href="https://github.com/leonardoasantos1?tab=repositories" target="_blank" class="btn-website">Repositórios GitHub</a>
+        </section>
+        <section class="services background-section" id="services">
+            <h1 class="services-title animate-on-scroll">Meus Serviços</h1>
+            <div class="services-cards animate-on-scroll">
+                <div class="services-card icon">
+                    <i class="fas fa-book"></i>
+                    <h3 class="services-card-title">E-book</h3>
+                    <p class="services-card-description">Portfólios prontos para desenvolvedores, feito com HTML/CSS/JavaScript e React. Perfeito para destacar suas habilidades!</p>
+                    <h3 class="services-card-status">Em Breve</h3>
+                </div>
+                <div class="services-card">
+                    <i class="fas fa-desktop icon"></i>
+                    <h3 class="services-card-title">Landing Page</h3>
+                    <p class="services-card-description">Sites profissionais para pequenas empresas. Contrate nosso serviço e potencialize sua presença online agora mesmo!</p>
+                    <h3 class="services-card-status">Em Breve</h3>
+                </div>
+                <div class="services-card">
+                    <i class="fas fa-briefcase icon"></i>
+                    <h3 class="services-card-title">Freelancer</h3>
+                    <p class="services-card-description">Desenvolvimento de soluções personalizadas para suas necessidades específicas em front-end.</p>
+                    <h3 class="services-card-status" style="color: #0e862c">Disponível</h3>
+                </div>
+            </div>
+        </section>        
+    </main>
+
+    <footer>
+        <p id="footer-year"></p>
+        <div class="icones-primary">
+            <div class="hero-social-icons">
+                <a class="social-icon" href="https://www.linkedin.com/in/leonardo-alvess/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="social-icon" href="https://github.com/leonardoasantos1" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="social-icon" href="mailto:leonardoasantos1@outlook.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <a class="whatsapp" href="https://wa.me/5511977649418" target="_blank"><img src="assets/images/whatsapp-cor.png" alt="ícone do WhatsApp"></a>
+    <script src="assets/JS/theme.js"></script>
+    <script src="assets/JS/data.js"></script>
+    <script src="assets/JS/animation.js"></script>
+</body>
+</html>
